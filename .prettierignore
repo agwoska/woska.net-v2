@@ -1,0 +1,4 @@
+# Ignore arifacts:
+build
+coverage
+node_modules
