@@ -1,5 +1,4 @@
-// eslint-disable-next-line no-unused-vars
-function consoleEffect(id, txt, color) {
+export default function consoleEffect(id, txt, color) {
   // eslint-disable-next-line no-param-reassign
   if (color === undefined) color = '#fff';
   const elem = document.getElementById(id);

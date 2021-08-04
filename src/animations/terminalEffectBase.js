@@ -1,6 +1,6 @@
 // https://codepen.io/Tbgse/pen/dYaJyJ
 // eslint-disable-next-line no-unused-vars
-function consoleEffect(id, txt, color) {
+function consoleEffect2(id, txt, color) {
   // eslint-disable-next-line no-param-reassign
   if (color === undefined) color = '#fff';
   const console = document.getElementById('console');
