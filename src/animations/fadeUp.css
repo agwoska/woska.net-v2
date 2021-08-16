@@ -2,7 +2,7 @@
     from {
         opacity: 0;
         transform: translate3d(0, 100%, 0);
-        bottom: 100px;
+        bottom: 50px;
     }
     to {
         opacity: 1;
@@ -14,6 +14,6 @@
 .fadeUp {
     animation-name: fadeUp;
     animation-timing-function: ease-in-out;
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-direction: normal;
 }
