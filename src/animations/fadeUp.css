@@ -1,0 +1,19 @@
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translate3d(0, 100%, 0);
+        bottom: 100px;
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0,0,0);
+        bottom: 0px;
+    }
+}
+
+.fadeUp {
+    animation-name: fadeUp;
+    animation-timing-function: ease-in-out;
+    animation-duration: 3s;
+    animation-direction: normal;
+}
