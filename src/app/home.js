@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import NavBar from './navigation/Navigate';
+import NavBar from './navigation/navigate';
 import '../animations/fadeUp.css';
+import '../animations/openNavHome.css'
 
 const Greetings = () => {
   const opening = 'Welcome to Woska.net';
@@ -39,7 +40,6 @@ function Intro() {
 }
 
 function Home() {
-
   return (
     <>
       <NavBar navTag={1}/><br />

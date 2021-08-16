@@ -1,18 +1,19 @@
 import React from 'react';
+// import { Link } from "react-router-dom";
 import PropTypes from 'prop-types';
-import './Nav.css';
+import './navigate.css';
 
 const NavBar = (props) => {
   switch (props.navTag) {
     case 1: // Home
       return (
         <div>
-          <ul className="navigation">
+          <ul className="navigation homeNavigation">
             <li className="active">Home</li>
             <li>Apps</li>
             <li>Notes</li>
-            <li>About Me</li>
-            <li>Contact Me</li>
+            <li><a href="/about">About Me</a></li>
+            <li><a href="/contact">Contact Me</a></li>
           </ul>
         </div>
       );
@@ -20,11 +21,11 @@ const NavBar = (props) => {
       return (
         <div>
           <ul className="navigation">
-            <li>Home</li>
+            <li><a href="/">Home</a></li>
             <li className="active">Apps</li>
             <li>Notes</li>
-            <li>About Me</li>
-            <li>Contact Me</li>
+            <li><a href="/about">About Me</a></li>
+            <li><a href="/contact">Contact Me</a></li>
           </ul>
         </div>
       );
@@ -32,11 +33,11 @@ const NavBar = (props) => {
       return (
         <div>
           <ul className="navigation">
-            <li>Home</li>
+            <li><a href="/">Home</a></li>
             <li>Apps</li>
             <li className="active">Notes</li>
-            <li>About Me</li>
-            <li>Contact Me</li>
+            <li><a href="/about">About Me</a></li>
+            <li><a href="/contact">Contact Me</a></li>
           </ul>
         </div>
       );
@@ -44,11 +45,11 @@ const NavBar = (props) => {
       return (
         <div>
           <ul className="navigation">
-            <li>Home</li>
+            <li><a href="/">Home</a></li>
             <li>Apps</li>
             <li>Notes</li>
             <li className="active">About Me</li>
-            <li>Contact Me</li>
+            <li><a href="/contact">Contact Me</a></li>
           </ul>
         </div>
       );
@@ -56,10 +57,10 @@ const NavBar = (props) => {
       return (
         <div>
           <ul className="navigation">
-            <li>Home</li>
+            <li><a href="/">Home</a></li>
             <li>Apps</li>
             <li>Notes</li>
-            <li>About Me</li>
+            <li><a href="/about">About Me</a></li>
             <li className="active">Contact Me</li>
           </ul>
         </div>
@@ -68,11 +69,11 @@ const NavBar = (props) => {
       return (
         <div>
           <ul className="navigation">
-            <li>Home</li>
+            <li><a href="/">Home</a></li>
             <li>Apps</li>
             <li>Notes</li>
-            <li>About Me</li>
-            <li>Contact Me</li>
+            <li><a href="/about">About Me</a></li>
+            <li><a href="/contact">Contact Me</a></li>
           </ul>
         </div>
       );
