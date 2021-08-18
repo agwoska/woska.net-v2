@@ -43,6 +43,8 @@ function Contact() {
     <>
       <NavBar navTag={5} /><br />
       <h3>Feel free to email me at <a href="mailto:contact@woska.net">contact@woska.net</a></h3>
+      <br />
+      <p>Responses may take time.</p>
     </>
   );
 }
