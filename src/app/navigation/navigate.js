@@ -81,7 +81,7 @@ const NavBar = (props) => {
 }
 
 NavBar.propTypes = {
-  navTag: PropTypes.string,
+  navTag: PropTypes.number,
 }
 
 NavBar.defaultProps = {
