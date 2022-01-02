@@ -7,16 +7,31 @@ const Me = () => (
 
     <p>
       Hello, I am Andrew Woska!<br /><br />
-      I am a Computer Engineering Student at the SUNY University at Buffalo and
-      an honors scholar.
+      I am a computer engineering student, researcher, TA, and
+      honors scholar at the University at Buffalo,
+      the State University of New York (SUNY).
+      I am a member of the Embedded Sensing and Computing Lab.
       <br />
+      { /**
       As someone who is interested in how health and medical services can be
       improved through technology, it is my mission to gain experience to make
       this idea a reality.
+      */ }
+      My current areas of interest are:
+      <ol style={{paddingLeft: '0px'}}>
+        <li style={{color: 'black'}}>embedded systems</li>
+        <li style={{color: 'black'}}>digital systems</li>
+        <li style={{color: 'black'}}>computer architecture</li>
+        <li style={{color: 'black'}}>firmware</li>
+        <li style={{color: 'black'}}>SoC</li>
+        <li style={{color: 'black'}}>automation</li>
+        <li style={{color: 'black'}}>computer and electrical engineering</li>
+      </ol>
+
       <br /><br />
       If there is anything business related you wish to discuss,
-      feel free to email me at&nbsp;
-      <a href="mailto:contact@woska.net">contact@woska.net</a>.
+      feel free to email me at
+      <a href="mailto:andrew@woska.org">andrew@woska.org</a>.
     </p>
   </div>
 )

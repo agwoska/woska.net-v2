@@ -42,7 +42,7 @@ function Contact() {
   return (
     <>
       <NavBar navTag={5} /><br />
-      <h3>Feel free to email me at <a href="mailto:contact@woska.net">contact@woska.net</a></h3>
+      <h3>Feel free to email me at <a href="mailto:andrew@woska.org">andrew@woska.org</a></h3>
       <br />
       <p>Responses may take time.</p>
     </>
