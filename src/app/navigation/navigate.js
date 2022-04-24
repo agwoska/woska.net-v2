@@ -11,7 +11,7 @@ const NavBar = (props) => {
           <ul className="navigation homeNavigation">
             <li className="active">Home</li>
             <li>Apps</li>
-            <li>Notes</li>
+            <li><a href="/publications">Publications</a></li>
             <li><a href="/about">About Me</a></li>
             <li><a href="/contact">Contact Me</a></li>
           </ul>
@@ -23,19 +23,19 @@ const NavBar = (props) => {
           <ul className="navigation">
             <li><a href="/">Home</a></li>
             <li className="active">Apps</li>
-            <li>Notes</li>
+            <li><a href="/publications">Publications</a></li>
             <li><a href="/about">About Me</a></li>
             <li><a href="/contact">Contact Me</a></li>
           </ul>
         </div>
       );
-    case 3: // Notes
+    case 3: // Publications
       return (
         <div>
           <ul className="navigation">
             <li><a href="/">Home</a></li>
             <li>Apps</li>
-            <li className="active">Notes</li>
+            <li className="active">Publications</li>
             <li><a href="/about">About Me</a></li>
             <li><a href="/contact">Contact Me</a></li>
           </ul>
@@ -47,7 +47,7 @@ const NavBar = (props) => {
           <ul className="navigation">
             <li><a href="/">Home</a></li>
             <li>Apps</li>
-            <li>Notes</li>
+            <li><a href="/publications">Publications</a></li>
             <li className="active">About Me</li>
             <li><a href="/contact">Contact Me</a></li>
           </ul>
@@ -59,7 +59,7 @@ const NavBar = (props) => {
           <ul className="navigation">
             <li><a href="/">Home</a></li>
             <li>Apps</li>
-            <li>Notes</li>
+            <li><a href="/publications">Publications</a></li>
             <li><a href="/about">About Me</a></li>
             <li className="active">Contact Me</li>
           </ul>
@@ -71,7 +71,7 @@ const NavBar = (props) => {
           <ul className="navigation">
             <li><a href="/">Home</a></li>
             <li>Apps</li>
-            <li>Notes</li>
+            <li><a href="/publications">Publications</a></li>
             <li><a href="/about">About Me</a></li>
             <li><a href="/contact">Contact Me</a></li>
           </ul>

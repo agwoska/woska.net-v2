@@ -22,8 +22,7 @@ const Me = () => (
         <li style={{color: 'black'}}>embedded systems</li>
         <li style={{color: 'black'}}>digital systems</li>
         <li style={{color: 'black'}}>computer architecture</li>
-        <li style={{color: 'black'}}>firmware</li>
-        <li style={{color: 'black'}}>SoC</li>
+        <li style={{color: 'black'}}>sensing</li>
         <li style={{color: 'black'}}>automation</li>
         <li style={{color: 'black'}}>computer and electrical engineering</li>
       </ol>
