@@ -15,6 +15,7 @@ const Pubs = () => (
       Buffalo, New York, April 2022.
       [<a href="papers/SURC22_abstract.pdf">abstract</a>]
       [<a href="papers/SURC22_poster.pdf">poster</a>]
+      [<a href="https://sunycpd.eventsair.com/surc22/">conference</a>]
     </p>
   </div>
 )

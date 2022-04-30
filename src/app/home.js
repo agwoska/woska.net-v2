@@ -32,8 +32,7 @@ function Intro() {
         and other creations I have made over the years.<br />
         If you are interested in learning about me and what I
         do, feel free to click on the About Me tab at the top.<br />
-        If you wish to contact me, click on Contact Me tab and fill
-        out the form or just send me an email.
+        If you wish to contact me, click on Contact Me tab send me an email.
       </h4>
     </div>
   );
