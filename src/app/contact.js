@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import NavBar from "./navigation/navigate";
 
-// TO BE USED Issue #
+// Discontinued
 // eslint-disable-next-line no-unused-vars
 function ContactForm() {
   const [name, setName] = useState('');
@@ -26,7 +26,7 @@ function ContactForm() {
         <input type="submit" value="Submit" />
       </form>
       <form
-        action="mailto:woskanet@gmail.com"
+        action="mailto:woska.net"
         method="POST"
         encType="multipart/form-data"
         name="emailSvc"

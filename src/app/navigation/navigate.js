@@ -3,15 +3,15 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './navigate.css';
 
-const NavBar = (props) => {
-  switch (props.navTag) {
+const NavBar = ({ navTag }) => {
+  switch (navTag) {
     case 1: // Home
       return (
         <div>
           <ul className="navigation homeNavigation">
             <li className="active">Home</li>
             <li>Apps</li>
-            <li><a href="/publications">Publications</a></li>
+            <li><a href="/publications">Projects & Publications</a></li>
             <li><a href="/about">About Me</a></li>
             <li><a href="/contact">Contact Me</a></li>
           </ul>
@@ -23,7 +23,7 @@ const NavBar = (props) => {
           <ul className="navigation">
             <li><a href="/">Home</a></li>
             <li className="active">Apps</li>
-            <li><a href="/publications">Publications</a></li>
+            <li><a href="/publications">Projects & Publications</a></li>
             <li><a href="/about">About Me</a></li>
             <li><a href="/contact">Contact Me</a></li>
           </ul>
@@ -35,7 +35,7 @@ const NavBar = (props) => {
           <ul className="navigation">
             <li><a href="/">Home</a></li>
             <li>Apps</li>
-            <li className="active">Publications</li>
+            <li className="active">Projects & Publications</li>
             <li><a href="/about">About Me</a></li>
             <li><a href="/contact">Contact Me</a></li>
           </ul>
@@ -47,7 +47,7 @@ const NavBar = (props) => {
           <ul className="navigation">
             <li><a href="/">Home</a></li>
             <li>Apps</li>
-            <li><a href="/publications">Publications</a></li>
+            <li><a href="/publications">Projects & Publications</a></li>
             <li className="active">About Me</li>
             <li><a href="/contact">Contact Me</a></li>
           </ul>
@@ -59,7 +59,7 @@ const NavBar = (props) => {
           <ul className="navigation">
             <li><a href="/">Home</a></li>
             <li>Apps</li>
-            <li><a href="/publications">Publications</a></li>
+            <li><a href="/publications">Projects & Publications</a></li>
             <li><a href="/about">About Me</a></li>
             <li className="active">Contact Me</li>
           </ul>
@@ -71,7 +71,7 @@ const NavBar = (props) => {
           <ul className="navigation">
             <li><a href="/">Home</a></li>
             <li>Apps</li>
-            <li><a href="/publications">Publications</a></li>
+            <li><a href="/publications">Projects & Publications</a></li>
             <li><a href="/about">About Me</a></li>
             <li><a href="/contact">Contact Me</a></li>
           </ul>

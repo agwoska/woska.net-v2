@@ -4,6 +4,19 @@ import NavBar from './navigation/navigate';
 
 const Pubs = () => (
   <div id="my-pubs">
+    <h2>My Projects</h2>
+    <br/>
+    <p>
+      [P4] Haptic Reality Platform (2023)
+      <br/>
+      [P3] Blender Digital Twin (2022)
+      <br/>
+      [P2] EMG Hand Gesture (2022-2023)
+      <br/>
+      [P1] Smartwatch Rehabilitation Device (2021-2022)
+      <br/>
+    </p>
+
     <h2>My Publications</h2>
     <br/>
 

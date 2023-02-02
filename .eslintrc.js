@@ -12,12 +12,17 @@ module.exports = {
         ecmaFeatures: {
             jsx: true,
         },
-        ecmaVersion: 12,
+        ecmaVersion: 2018,
         sourceType: 'module',
     },
     plugins: [
         'react',
     ],
+    settings:  {
+        react:  {
+            version:  'detect',  // Tells eslint-plugin-react to automatically detect the version of React to use
+        },
+    },
     rules: {
         "curly": "warn",
         "class-methods-use-this": "error",
