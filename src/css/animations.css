@@ -17,3 +17,14 @@
     animation-duration: 2s;
     animation-direction: normal;
 }
+
+@keyframes openNav {
+    from {
+        opacity: 0;
+        top: -50px;
+    }
+    to {
+        opacity: 1;
+        top: 0px;
+    }
+}
