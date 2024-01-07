@@ -19,6 +19,7 @@ module.exports = {
         'linebreak-style': 0,
         'react/jsx-filename-extension': 0,
         'indent': 0,
+        'react/jsx-indent': 0,
         'quote-props': [1, 'consistent-as-needed'],
         'no-multiple-empty-lines': [1, { max: 3 }],
         'no-use-before-define': 2,

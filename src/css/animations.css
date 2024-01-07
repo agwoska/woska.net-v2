@@ -1,0 +1,30 @@
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translate3d(0, 100%, 0);
+        bottom: 50px;
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0,0,0);
+        bottom: 0px;
+    }
+}
+
+.fadeUp {
+    animation-name: fadeUp;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+    animation-direction: normal;
+}
+
+@keyframes openNav {
+    from {
+        opacity: 0;
+        top: -50px;
+    }
+    to {
+        opacity: 1;
+        top: 0px;
+    }
+}
