@@ -1,5 +1,4 @@
 module.exports = {
-    // eslint-disable-next-line indent
     env: {
         browser: true,
         es2021: true,
