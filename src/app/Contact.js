@@ -8,7 +8,7 @@ const Contact = () => (
         <br />
         <div id="contact-me">
             <h3>
-                Feel free to email me at
+                Feel free to email me at&nbsp;
                 <a href="mailto:andrew@woska.org">andrew@woska.org</a>
             </h3>
             <br />
