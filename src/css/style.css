@@ -2,8 +2,8 @@
     text-align: center;
     background-color: #005bbb;
     padding: 18px 50px;
-    top: 0;
-    position: static;
+    /* top: 20px; */
+    position: relative;
     overflow: auto;
 }
 

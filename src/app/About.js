@@ -70,7 +70,7 @@ const Site = () => (
     <h2>About the Site</h2>
 
     <p>
-        This site was built with
+        This site was built with&nbsp;
         <a href="https://reactjs.org">React.js</a>
         .
     </p>

@@ -53,8 +53,6 @@ function Layout() {
     background: 'none',
     border: 'none',
     overflow: 'visable',
-    position: 'fixed',
-    top: '0px',
   };
 
   return (
