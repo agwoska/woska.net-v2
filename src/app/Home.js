@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import NavBar from './Navigate';
+// import NavBar from './Navigate';
+import Bar from './Bar';
 import '../css/animations.css';
 
 const Greetings = () => {
@@ -44,7 +45,7 @@ function Intro() {
 function Home() {
   return (
     <>
-      <NavBar navTag={1} />
+      <Bar />
       <br />
       <Greetings />
       <br />

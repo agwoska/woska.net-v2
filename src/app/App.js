@@ -54,9 +54,10 @@ function App() {
   return (
     <BrowserRouter>
     <Routes>
-      <Route path="/" element={<Layout />}>
+      <Route path="/" element={<Home />}>
         <Route index element={<Home />} />
         <Route path="/test" element={<Test />} />
+        {/* Disable below in production as Nginx will handle it */}
         <Route path="*" element={<h1>Not Found</h1>} />
       </Route>
     </Routes>
@@ -64,37 +65,37 @@ function App() {
   );
 }
 
-function Layout() {
-  return (
-    <>
-    <div id="sidebar">
-        <div>
-          <h1>Layout</h1>
-          <br />
-          <p>hello there</p>
+// function Layout() {
+//   return (
+//     <>
+//     <div id="sidebar">
+//         <div>
+//           <h1>Layout</h1>
+//           <br />
+//           <p>hello there</p>
 
-          <nav>
-            <ul>
-              <li>
-                <a href="/">Home</a>
-              </li>
-              <li>
-                <Link to="/test">Test</Link>
-              </li>
-              <li>
-                <a href="/test">About</a>
-              </li>
-              <li>
-                <a href="/contact">Contact</a>
-              </li>
-            </ul>
-          </nav>
-          <hr />
-          <Outlet />
-        </div>
-    </div>
-    </>
-  );
-}
+//           <nav>
+//             <ul>
+//               <li>
+//                 <a href="/">Home</a>
+//               </li>
+//               <li>
+//                 <Link to="/test">Test</Link>
+//               </li>
+//               <li>
+//                 <a href="/test">About</a>
+//               </li>
+//               <li>
+//                 <a href="/contact">Contact</a>
+//               </li>
+//             </ul>
+//           </nav>
+//           <hr />
+//           <Outlet />
+//         </div>
+//     </div>
+//     </>
+//   );
+// }
 
 export default App;
