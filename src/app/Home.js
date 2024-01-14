@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 // import NavBar from './Navigate';
 import Bar from './Bar';
+import Footer from './Footer';
 import '../css/animations.css';
 
 const Greetings = () => {
@@ -27,7 +28,6 @@ function Intro() {
       <h3>
         Greetings! You have arrived at my website.
         <br />
-        <br />
       </h3>
       <h4>
         Here you will find some of my apps, notes,
@@ -52,10 +52,7 @@ function Home() {
       <Intro />
       <br />
       <br />
-      <p>
-        Website is currently being reworked due to version problems and outdated content.
-        Please contact me if you need anything.
-      </p>
+      <Footer />
     </>
   );
 }
