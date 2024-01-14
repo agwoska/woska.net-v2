@@ -11,7 +11,7 @@
     z-index: 999;
 }
 
-ul {
+/* ul {
     padding: 0;
     margin: 0;
 }
@@ -26,7 +26,7 @@ li {
     margin: 0;
     padding: 20px 18px 10px 18px;
     text-transform: uppercase;
-}
+} */
 
 .active {
     color: #88CCF1;

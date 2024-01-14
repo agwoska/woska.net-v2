@@ -1,0 +1,25 @@
+#bar {
+    text-align: center;
+    background-color: #005bbb;
+    padding: 18px 50px;
+    /* top: 20px; */
+    position: relative;
+    overflow: auto;
+}
+
+#bar > :active {
+    color: #88CCF1;
+}
+
+#footer {
+    text-align: center;
+    padding: 18px 50px;
+    bottom: 0;
+    position: relative;
+    overflow: auto;
+}
+
+.homeNavigation {
+    animation-name: openNav;
+    animation-duration: 1s;
+}
