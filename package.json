@@ -6,12 +6,8 @@
   "homepage": "https://woska.net",
   "main": "index.js",
   "scripts": {
-    "start:old": "react-scripts start",
     "dev": "webpack serve --mode development",
-    "build:old": "react-scripts build",
-    "build:dev": "webpack --mode development",
-    "build:prod": "webpack --mode production",
-    "eject": "react-scripts eject",
+    "build": "webpack --mode production",
     "lint": "eslint . --ext .js,.jsx"
   },
   "dependencies": {
@@ -19,7 +15,8 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-router": "^6.21.1",
-    "react-router-dom": "^6.21.1"
+    "react-router-dom": "^6.21.1",
+    "react-icons": "^4.2.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.15.8",
