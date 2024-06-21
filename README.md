@@ -15,7 +15,7 @@ Launches development mode in webpack.
 Open [http://localhost:3000](http://localhost:3000)
 to view it in your prefered browser.
 
-You can change the port in [webpack config](./webpack.config.json).
+You can change the port in [webpack config](./webpack.config.js).
 
 ### `yarn build`
 
