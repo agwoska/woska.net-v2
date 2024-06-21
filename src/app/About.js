@@ -10,7 +10,7 @@ const Me = () => (
       Hello, I am A. Woska!
       <br />
       <br />
-      I am an electrical and computer engineering student at Boston University
+      I just graduated from Boston University as a Master of Science in Electrical and Computer Engineering
       focusing on digital device development and applications.
       <br />
       <br />
@@ -54,6 +54,7 @@ const Me = () => (
         <li style={{ color: 'black' }}>Raspberry Pi 3B+, RP2040</li>
         <li style={{ color: 'black' }}>Tiva C-Series</li>
         <li style={{ color: 'black' }}>Xilinx Basys 3</li>
+        <li style={{ color: 'black' }}>BeagleBone Black</li>
       </ol>
 
       <br />
