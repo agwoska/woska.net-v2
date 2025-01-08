@@ -10,6 +10,13 @@ const Projects = () => (
         <div id="my-pubs">
             <h2>My Projects</h2>
             <p>
+                [P11] Logic Synthesis Engine Rewrite
+                [<a href="https://github.com/agwoska/ec551prog1" rel="noreferrer">GitHub (Private)</a>]
+                <br />
+                [P10] Beaglebone Black Digital Twin
+                <br />
+                [P9] Debt Collection in MA
+                <br />
                 [P8] LegSense (S3)
                 <br />
                 [P7] DetectoVision
