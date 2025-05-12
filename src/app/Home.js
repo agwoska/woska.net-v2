@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from 'react';
-// import NavBar from './Navigate';
-import Bar from './Bar';
-import Footer from './Footer';
+import { Container } from 'react-bootstrap';
 import '../css/animations.css';
 
 const Greetings = () => {
@@ -16,19 +14,21 @@ const Greetings = () => {
     return () => clearInterval(timer);
   });
   return (
-    <div id="Open">
+    <Container>
       <h1>{letters}</h1>
-    </div>
+    </Container>
   );
 };
 
-function Intro() {
-  return (
+const Home = () => (
+  <Container>
+    <Greetings />
+    <br />
     <div id="intro" className="fadeUp">
       <h3>
         Greetings! You have arrived at my website.
-        <br />
       </h3>
+      <br />
       <h4>
         Here you will find some of my apps, notes,
         and other creations I have made over the years.
@@ -39,22 +39,7 @@ function Intro() {
         If you wish to contact me, click on Contact Me tab send me an email.
       </h4>
     </div>
-  );
-}
-
-function Home() {
-  return (
-    <>
-      <Bar />
-      <br />
-      <Greetings />
-      <br />
-      <Intro />
-      <br />
-      <br />
-      <Footer />
-    </>
-  );
-}
+  </Container>
+);
 
 export default Home;
