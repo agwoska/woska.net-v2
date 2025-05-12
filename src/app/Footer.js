@@ -4,7 +4,7 @@ import { FaGithub } from 'react-icons/fa';
 
 const Footer = () => (
     <div id="footer">
-        <p>Version 2.4.0</p>
+        <p>Version 2.4.1</p>
         <a href="https://github.com/agwoska" target="_blank" rel="noreferrer" aria-label="Save">
             <FaGithub />
         </a>

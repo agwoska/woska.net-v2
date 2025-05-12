@@ -9,6 +9,7 @@ const Projects = () => (
             <p>
                 [P12] Dark and Darker Game Quest Tracker
                 [currently closed source, will be online soon]
+                <br />
                 [P11] Logic Synthesis Engine Rewrite
                 [<a href="https://github.com/agwoska/ec551prog1" rel="noreferrer">GitHub (Private)</a>]
                 <br />
