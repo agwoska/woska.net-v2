@@ -58,9 +58,7 @@ const Me = () => (
     <p>
       <br />
       If there is anything business related you wish to discuss,
-      feel free to email me at&nbsp;
-      <a href="mailto:andrew@woska.net">andrew@woska.net</a>
-      .
+      feel free to email me at andrew (at) woska (dot) net.
     </p>
   </div>
 );

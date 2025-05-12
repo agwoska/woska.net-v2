@@ -7,6 +7,8 @@ const Projects = () => (
         <div id="my-pubs">
             <h2>My Projects</h2>
             <p>
+                [P12] Dark and Darker Game Quest Tracker
+                [currently closed source, will be online soon]
                 [P11] Logic Synthesis Engine Rewrite
                 [<a href="https://github.com/agwoska/ec551prog1" rel="noreferrer">GitHub (Private)</a>]
                 <br />
@@ -58,6 +60,11 @@ const Projects = () => (
                 [<a href="papers/SURC22_abstract.pdf" rel="noreferrer">abstract</a>]
                 [<a href="papers/SURC22_poster.pdf" rel="noreferrer">poster</a>]
                 [<a href="https://sunycpd.eventsair.com/surc22/" rel="noreferrer">conference</a>]
+            </p>
+            <br />
+            <br />
+            <p>
+                Project access and boards may be available upon request.
             </p>
         </div>
     </Container>
