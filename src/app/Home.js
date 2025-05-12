@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-// import NavBar from './Navigate';
+import { Container } from 'react-bootstrap';
 import Bar from './Bar';
 import Footer from './Footer';
 import '../css/animations.css';
@@ -16,19 +16,19 @@ const Greetings = () => {
     return () => clearInterval(timer);
   });
   return (
-    <div id="Open">
+    <Container>
       <h1>{letters}</h1>
-    </div>
+    </Container>
   );
 };
 
-function Intro() {
-  return (
+const Intro = () => (
+  <Container>
     <div id="intro" className="fadeUp">
       <h3>
         Greetings! You have arrived at my website.
-        <br />
       </h3>
+      <br />
       <h4>
         Here you will find some of my apps, notes,
         and other creations I have made over the years.
@@ -39,22 +39,21 @@ function Intro() {
         If you wish to contact me, click on Contact Me tab send me an email.
       </h4>
     </div>
-  );
-}
+  </Container>
+);
 
-function Home() {
-  return (
-    <>
-      <Bar />
-      <br />
-      <Greetings />
-      <br />
-      <Intro />
-      <br />
-      <br />
-      <Footer />
-    </>
-  );
-}
+const Home = () => (
+  <>
+    <Bar />
+    <br />
+    <br />
+    <Greetings />
+    <br />
+    <Intro />
+    <br />
+    <br />
+    <Footer />
+  </>
+);
 
 export default Home;
