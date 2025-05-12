@@ -1,22 +1,17 @@
 import React from 'react';
-import Bar from './Bar';
-import Footer from './Footer';
+import { Container } from 'react-bootstrap';
 
 const Contact = () => (
-    <>
-        <Bar />
-        <br />
+    <Container>
         <div id="contact-me">
             <h3>
                 Feel free to email me at&nbsp;
-                <a href="mailto:andrew@woska.org">andrew@woska.org</a>
+                <a href="mailto:andrew@woska.net">andrew@woska.net</a>
             </h3>
             <br />
             <p>Responses may take time.</p>
         </div>
-        <br />
-        <Footer />
-    </>
+    </Container>
 );
 
 export default Contact;

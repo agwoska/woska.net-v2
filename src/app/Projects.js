@@ -1,12 +1,9 @@
 /* eslint-disable react/jsx-one-expression-per-line */
 import React from 'react';
-import Bar from './Bar';
-import Footer from './Footer';
+import { Container } from 'react-bootstrap';
 
 const Projects = () => (
-    <>
-        <Bar />
-        <br />
+    <Container>
         <div id="my-pubs">
             <h2>My Projects</h2>
             <p>
@@ -63,9 +60,7 @@ const Projects = () => (
                 [<a href="https://sunycpd.eventsair.com/surc22/" rel="noreferrer">conference</a>]
             </p>
         </div>
-        <br />
-        <Footer />
-    </>
+    </Container>
 );
 
 export default Projects;

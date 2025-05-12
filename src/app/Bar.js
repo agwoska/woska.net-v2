@@ -3,10 +3,10 @@ import {
     Container,
     Navbar,
     Nav,
-    NavDropdown,
-    Table,
-    Button,
-    Dropdown,
+    // NavDropdown,
+    // Table,
+    // Button,
+    // Dropdown,
    } from 'react-bootstrap';
 
 const Bar = () => (
@@ -19,6 +19,8 @@ const Bar = () => (
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
                         <Nav.Link href="/projects">Projects</Nav.Link>
+                        <Nav.Link href="/about">About Me</Nav.Link>
+                        <Nav.Link href="/contact">Contact Me</Nav.Link>
                         {/* <NavDropdown title="More" id="basic-nav-dropdown">
                             <NavDropdown.Item href="/about">About</NavDropdown.Item>
                             <NavDropdown.Item href="/contact">Contact</NavDropdown.Item>

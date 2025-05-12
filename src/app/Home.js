@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { Container } from 'react-bootstrap';
-import Bar from './Bar';
-import Footer from './Footer';
 import '../css/animations.css';
 
 const Greetings = () => {
@@ -22,8 +20,10 @@ const Greetings = () => {
   );
 };
 
-const Intro = () => (
+const Home = () => (
   <Container>
+    <Greetings />
+    <br />
     <div id="intro" className="fadeUp">
       <h3>
         Greetings! You have arrived at my website.
@@ -40,20 +40,6 @@ const Intro = () => (
       </h4>
     </div>
   </Container>
-);
-
-const Home = () => (
-  <>
-    <Bar />
-    <br />
-    <br />
-    <Greetings />
-    <br />
-    <Intro />
-    <br />
-    <br />
-    <Footer />
-  </>
 );
 
 export default Home;
